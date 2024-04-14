@@ -1,3 +1,54 @@
-site:"target.com" inurl:admin.php
-site:"target.com" intitle::"index of" password
-site:"target.com" filetype:xls or xlsx or env
+site:target.com inurl:admin.php
+inurl:target.com intitle:"index of"
+site:target.com intitle:"admin login" intext:"password"
+site:target.com intitle::"index of" intext:"password"
+site:target.com filetype:xls or xlsx or en
+site:target.com intitle:”index of” intext:”config.yml” 
+site:target.com intitle:”index of” intext:”database.yml”
+site:target.com intitle:”index of” intext:”settings.py”
+site:target.com intitle:”index of” intext:”access.log”
+site:target.com intitle:”index of” inurl:”.git”
+site:target.com intitle:”index of” intext:”database.sql”
+site:target.com intitle:”index of” intext:”dump.sql”
+site:target.com intitle:”index of” intext:”backup.sql”
+site:target.com intitle:”index of” inurl:”.php”
+site:target.com intitle:”index of” inurl:”.asp”
+site:target.com intitle:”index of” inurl:”.html”
+site:target.com intitle:”index of” inurl:”.Js”
+site:target.com intitle:”index of” intext:”security.yml”
+site:target.com intitle:”index of” intext:”.s3.amazonaws.com” 
+site:target.com intitle:”index of” intext:”.s3-eu-west-1.amazonaws.com”
+site:target.com intitle:”index of” inurl:”/api”
+site:target.com intitle:”index of” inurl:”/api/v1"
+site:target.com intitle:”index of” inurl:”/wp-content/plugins”
+site:target.com intitle:”index of” intext:”jenkins” 
+site:target.com intitle:”index of” intext:”jira”
+site:target.com intitle:”index of” intext:”docker-compose.yml”
+site:target.com intitle:”index of” intext:”docker-compose.yaml”
+inurl:target.com "MYSQL_ROOT_PASSWORD:" 
+inurl:target.com intext:admin ext:sql inurl:admin
+inurl:target.com intitle:"index of" ext:sql|xls|xml|json|csv
+site:target.com "-----BEGIN RSA PRIVATE KEY-----" inurl:id_rsa
+inurl:target.com allintext:"API_SECRET*" ext:env
+inurl:target.com allintext:"API_SECRET*" ext:yml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
