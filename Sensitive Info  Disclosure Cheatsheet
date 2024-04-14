@@ -1,0 +1,3 @@
+site:"target.com" inurl:admin.php
+site:"target.com" intitle::"index of" password
+site:"target.com" filetype:xls or xlsx or env
