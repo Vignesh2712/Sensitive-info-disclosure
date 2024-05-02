@@ -1,7 +1,7 @@
 site:target.com inurl:admin.php
 inurl:target.com intitle:"index of"
 site:target.com intitle:"admin login" intext:"password"
-site:target.com intitle::"index of" intext:"password"
+site:target.com intitle:"index of" intext:"password"
 site:target.com filetype:xls or xlsx or env
 site:target.com intitle:”index of” intext:”config.yml” 
 site:target.com intitle:”index of” intext:”database.yml”
